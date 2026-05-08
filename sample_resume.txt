@@ -1,0 +1,8 @@
+John Doe
+
+Skills:
+Python
+SQL
+Machine Learning
+FastAPI
+NLP
