@@ -12,15 +12,25 @@ based on job descriptions using text similarity techniques.
 ## Methods Used
 - TF-IDF vectorization to represent resume and job description text
 - Cosine similarity scoring to measure candidate-job relevance
-- NLP preprocessing including tokenization and stop-word removal
+- Basic NLP preprocessing using lowercase text normalization and skill extraction
 
 ## Tech Stack
 Python, Scikit-learn, NLP (TF-IDF, Cosine Similarity)
 
 ## Project Structure
-resume_parser.py     # Extracts and preprocesses resume text  
-ranking_model.py     # Computes TF-IDF vectors and similarity scores  
-main.py              # Runs the candidate ranking pipeline  
+- resume_parser.py        # Extracts and preprocesses resume text
+- feature_extraction.py   # Extracts candidate skills from resume text
+- ranking_model.py        # Computes TF-IDF vectors and similarity scores
+- sample_resume.txt       # Sample candidate resume
+- main.py                 # Runs the candidate ranking pipeline
+
+## How to Run
+
+Install dependencies:
+pip install -r requirements.txt
+
+Run the application:
+python main.py
 
 ## Future Improvements
 - Integration with real recruitment datasets
