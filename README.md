@@ -1,8 +1,8 @@
 # RecruitAI – Intelligent Resume Screening & Candidate Ranking System
 
-RecruitAI is an NLP-based candidate screening platform that automates resume analysis, skill extraction, and candidate-job matching using TF-IDF vectorization and cosine similarity techniques. The system assists recruiters in identifying relevant candidates by comparing resume content against job requirements and generating relevance-based rankings.
+RecruitAI is an NLP-powered candidate screening platform that automates resume analysis, skill extraction, and candidate-job matching using TF-IDF vectorization and cosine similarity techniques. The system assists recruiters in identifying relevant candidates by comparing resume content against job requirements and generating relevance-based rankings.
 
-## Features
+## Key Features
 
 * Automated resume parsing and preprocessing
 * Skill extraction from candidate resumes
@@ -11,65 +11,29 @@ RecruitAI is an NLP-based candidate screening platform that automates resume ana
 * Relevance-based candidate ranking
 * Automated recruiter screening workflow
 
-## System Architecture
+## Technical Approach
 
-```text
-+------------------+
-|   Resume Input   |
-+------------------+
-          ↓
-+----------------------+
-| Text Preprocessing   |
-+----------------------+
-          ↓
-+----------------------+
-|   Skill Extraction   |
-+----------------------+
-          ↓
-+----------------------+
-| TF-IDF Vectorization |
-+----------------------+
-          ↓
-+----------------------+
-| Cosine Similarity    |
-|      Matching        |
-+----------------------+
-          ↓
-+----------------------+
-| Candidate Ranking    |
-+----------------------+
-          ↓
-+----------------------+
-| Recruiter Decision   |
-|       Support        |
-+----------------------+
-```
+RecruitAI processes candidate resumes and job descriptions through an NLP pipeline consisting of text preprocessing, feature extraction, TF-IDF vectorization, and cosine similarity-based ranking. The system generates relevance scores that help recruiters identify the most suitable candidates for a given role.
 
-## Methods Used
-
-* Text preprocessing and normalization
-* TF-IDF vectorization for document representation
-* Cosine similarity scoring for candidate-job matching
-* Skill extraction using keyword-based NLP techniques
-* Automated relevance scoring and ranking pipeline
-
-## Tech Stack
+## Technologies Used
 
 * Python
 * Scikit-learn
 * NumPy
-* NLP (TF-IDF, Cosine Similarity)
+* TF-IDF Vectorization
+* Cosine Similarity
+* Natural Language Processing (NLP)
 
 ## Project Structure
 
-* resume_parser.py        → Resume parsing and preprocessing
-* feature_extraction.py   → Skill extraction and keyword identification
-* ranking_model.py        → TF-IDF vectorization and similarity scoring
-* sample_resume.txt       → Sample candidate resume
-* main.py                 → Candidate ranking pipeline
-* requirements.txt        → Project dependencies
+* `resume_parser.py` – Resume parsing and preprocessing
+* `feature_extraction.py` – Skill extraction and keyword identification
+* `ranking_model.py` – Candidate ranking and similarity scoring
+* `sample_resume.txt` – Sample candidate resume
+* `main.py` – Application entry point
+* `requirements.txt` – Project dependencies
 
-## How to Run
+## Getting Started
 
 Install dependencies:
 
@@ -83,12 +47,12 @@ Run the application:
 python main.py
 ```
 
-## Use Cases
+## Potential Applications
 
 * Resume screening automation
 * Candidate shortlisting
 * Skill-based hiring support
-* Initial recruitment filtering
+* Recruitment workflow optimization
 * HR decision support systems
 
 ## Future Enhancements
@@ -103,8 +67,8 @@ python main.py
 
 **Aishwarya S Ningappanavar**
 
-B.E. Electronics and Communication Engineering  
+B.E. Electronics and Communication Engineering
 Nitte Meenakshi Institute of Technology (NMIT), Bengaluru
 
-* GitHub: https://github.com/aishwarya-15sn
-* LinkedIn: https://www.linkedin.com/in/snaishwarya
+GitHub: https://github.com/aishwarya-15sn
+LinkedIn: https://www.linkedin.com/in/snaishwarya
