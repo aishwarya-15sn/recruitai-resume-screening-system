@@ -14,6 +14,7 @@ RecruitAI is an NLP-based candidate screening platform that automates resume ana
 # System Architecture
 
 Resume Input
+   
       ↓
 Text Preprocessing
       ↓
