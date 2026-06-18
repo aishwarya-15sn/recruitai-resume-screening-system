@@ -17,34 +17,28 @@ RecruitAI is an NLP-based candidate screening platform that automates resume ana
 +------------------+
 |   Resume Input   |
 +------------------+
-          |
-          v
+          ↓
 +----------------------+
 | Text Preprocessing   |
 +----------------------+
-          |
-          v
+          ↓
 +----------------------+
 |   Skill Extraction   |
 +----------------------+
-          |
-          v
+          ↓
 +----------------------+
 | TF-IDF Vectorization |
 +----------------------+
-          |
-          v
+          ↓
 +----------------------+
 | Cosine Similarity    |
 |      Matching        |
 +----------------------+
-          |
-          v
+          ↓
 +----------------------+
 | Candidate Ranking    |
 +----------------------+
-          |
-          v
+          ↓
 +----------------------+
 | Recruiter Decision   |
 |       Support        |
