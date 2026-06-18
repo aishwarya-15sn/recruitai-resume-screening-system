@@ -1,4 +1,4 @@
-# RecruitAI – NLP-Based Recruitment Screening System
+# RecruitAI – Intelligent Resume Screening & Candidate Ranking System
 
 An NLP-based system that automatically analyzes resumes and ranks candidates
 based on job descriptions using text similarity techniques.
