@@ -70,5 +70,5 @@ python main.py
 B.E. Electronics and Communication Engineering
 Nitte Meenakshi Institute of Technology (NMIT), Bengaluru
 
-GitHub: https://github.com/aishwarya-15sn
-LinkedIn: https://www.linkedin.com/in/snaishwarya
+* GitHub: https://github.com/aishwarya-15sn
+* LinkedIn: https://www.linkedin.com/in/snaishwarya
