@@ -11,33 +11,45 @@ RecruitAI is an NLP-based candidate screening platform that automates resume ana
 * Relevance-based candidate ranking
 * Automated recruiter screening workflow
 
-# System Architecture
+## System Architecture
 
-Resume Input
-   
-      ↓
-      
-Text Preprocessing
-   
-      ↓
-      
-Skill Extraction
-    
-      ↓
-      
-TF-IDF Vectorization
- 
-      ↓
-      
-Cosine Similarity Matching
-   
-      ↓
-      
-Candidate Ranking
-     
-      ↓
-      
-Recruiter Decision Support
+```text
++------------------+
+|   Resume Input   |
++------------------+
+          |
+          v
++----------------------+
+| Text Preprocessing   |
++----------------------+
+          |
+          v
++----------------------+
+|   Skill Extraction   |
++----------------------+
+          |
+          v
++----------------------+
+| TF-IDF Vectorization |
++----------------------+
+          |
+          v
++----------------------+
+| Cosine Similarity    |
+|      Matching        |
++----------------------+
+          |
+          v
++----------------------+
+| Candidate Ranking    |
++----------------------+
+          |
+          v
++----------------------+
+| Recruiter Decision   |
+|       Support        |
++----------------------+
+```
 
 ## Methods Used
 
@@ -100,5 +112,5 @@ python main.py
 B.E. Electronics and Communication Engineering  
 Nitte Meenakshi Institute of Technology (NMIT), Bengaluru
 
-GitHub: https://github.com/aishwarya-15sn
-LinkedIn: https://www.linkedin.com/in/snaishwarya
+* GitHub: https://github.com/aishwarya-15sn
+* LinkedIn: https://www.linkedin.com/in/snaishwarya
