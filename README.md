@@ -85,6 +85,8 @@ python main.py
 
 **Aishwarya S Ningappanavar**
 
-B.E. Electronics and Communication Engineering
-
+B.E. Electronics and Communication Engineering  
 Nitte Meenakshi Institute of Technology (NMIT), Bengaluru
+
+GitHub: https://github.com/aishwarya-15sn
+LinkedIn: https://www.linkedin.com/in/snaishwarya
